@@ -1,10 +1,10 @@
 # employed
 
+![employed.png](assets/employed.png)
+
 ![employed_00.gif](assets/employed_00.gif)
 
 ![employed_01.gif](assets/employed_01.gif)
-
-![employed.png](assets/employed.png)
 
 - Chrome extension used to search for jobs of all types effortlessly
 
