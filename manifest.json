@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "employed",
+  "description": "employed",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/search?q=site:*"],
+      "js": ["content_scripts/google.js"]
+    }
+  ]
+}
