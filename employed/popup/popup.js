@@ -8,8 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
   let searchURL = '';
 
   let displayElement = document.getElementById('display');
+  let body = document.getElementsByTagName('body');
+
   search_file.addEventListener('focus', () => {
     displayElement.style.display = 'none';
+    body[0].style.height = '230px';
   });
   
   form.addEventListener("submit", (event) => {
@@ -56,5 +59,3 @@ encodeURIComponent(file) + " " + "after:" + date;
     
   });
 });
-
-// a smarter way to learn python, a smarter way to learn javascript

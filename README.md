@@ -6,7 +6,7 @@
 
 ![employed_01.gif](assets/employed_02.gif)
 
-- Chrome extension used to search for jobs of all types effortlessly
+- Chrome extension used to search for jobs AND books / pdfs of all types effortlessly
 
 - Download the "employed" folder and go to your browsers extension upload page. Specific browsers listed below
 
