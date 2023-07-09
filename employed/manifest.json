@@ -12,7 +12,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.google.com/search?q=site:*"],
+      "matches": [
+        "https://www.google.com/search?q=site:*",
+        "https://www.google.com/search?q=filetype:*"
+      ],
       "js": ["content_scripts/google.js"]
     }
   ]
