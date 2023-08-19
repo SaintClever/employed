@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 https://www.google.com/search?q=
 site:app.dover.io+%7C+
 site:aquenttalent.com+%7C+
+site:breezy.hr+%7C+
 site:careers-page.com+%7C+
 site:greenhouse.io+%7C+
 site:jobs.ashbyhq.com+%7C+
