@@ -1,19 +1,22 @@
 body {
   width: 200px;
-  height: 355px;
-  background-color: #000;
+  height: 405px;
+  /* background-color: #000; */
+  background-color: #9cdae0;
   color: #777;
   font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
   margin: 10px 20px 20px 10px;
+  /* background-image: url(images/bg.gif);
+  background-size: contain;
+  background-repeat: no-repeat; */
 }
 
 #logo {
-  color: #fff;
   border-radius: 5px 5px 0px 0px;
-  background-color: #f765a6;
+  background-color: #ffff74;
   padding: 5px;
   text-align: center;
+  border-bottom: 2px dashed #ff3a6e;
 }
 
 #logo img {
@@ -21,6 +24,10 @@ body {
 }
 
 #logo h3 {
+  color: #ff3a6e;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28px;
   margin: 0 auto;
 }
 
@@ -31,7 +38,9 @@ body {
 #canvas {
   border-radius: 5px;
   background-color: #ffffff;
-  box-shadow: 10px 10px #0071fb;
+  /* box-shadow: 10px 10px #0071fb; */
+  /* box-shadow: 10px 10px rgb(0 0 0 / 0.2); */
+  box-shadow: 10px 10px 5px rgb(0 113 251 / 0.25);
 }
 
 #canvas #search-form {
@@ -66,6 +75,9 @@ input[type=text], select {
   box-sizing: border-box;
   background-color: #ffffff;
   transition: .5s;
+  /* font-weight: bold; */
+  /* font-size: 18px; */
+  font-family: 'Courier New', Courier, monospace;
 }
 
 input[type=text]:hover {
@@ -107,9 +119,11 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   transition: .5s;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 input[type=submit]:hover {
-  background-color: #f765a6;
-  transition: .5s;
+  background-color: #ff3a6e;
 }

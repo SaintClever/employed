@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   search_file.addEventListener('focus', () => {
     displayElement.style.display = 'none';
-    body[0].style.height = '220px';
+    body[0].style.height = '270px';
   });
   
   form.addEventListener("submit", (event) => {
