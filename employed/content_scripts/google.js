@@ -9,11 +9,11 @@ let removeAppbar = () => {
 
 removeAppbar();
 
-let url = window.location.href;
-let searchURL = url.search('filetype:');
-let jobLink = document.getElementsByClassName('LC20lb');
+// let url = window.location.href;
+// let searchURL = url.search('filetype:');
+// let jobLink = document.getElementsByClassName('LC20lb');
 
-if (url.slice(0, 41) === 'https://www.google.com/search?q=filetype:' && searchURL !== -1) {
-  jobLink[0].parentElement.setAttribute('target', '_blank');
-  jobLink[0].click();
-}
+// if (url.slice(0, 41) === 'https://www.google.com/search?q=filetype:' && searchURL !== -1) {
+//   jobLink[0].parentElement.setAttribute('target', '_blank');
+//   jobLink[0].click();
+// }
