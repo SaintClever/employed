@@ -33,7 +33,7 @@ site:greenhouse.io+%7C+
 site:jobs.ashbyhq.com+%7C+
 site:jobs.lever.co+%7C+
 site:jobs.smartrecruiters.com+%7C+
-site:remoterocketship.com+%7C+
+site:remoterocketship.com/company+%7C+
 site:roberthalf.com/job+` +
 encodeURIComponent(job) + " " +
 encodeURIComponent(location) + " " +
