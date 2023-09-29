@@ -35,7 +35,8 @@ site:jobs.lever.co+%7C+
 site:jobs.smartrecruiters.com+%7C+
 site:recruiterflow.com inurl:jobs+%7C+
 site:remoterocketship.com/company+%7C+
-site:roberthalf.com/job+` +
+site:roberthalf.com/job+%7C+
+site:ziprecruiter.com+` +
 encodeURIComponent(job) + " " +
 encodeURIComponent(location) + " " +
 encodeURIComponent(exclusion) + " " + "after:" + date;
