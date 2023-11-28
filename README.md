@@ -1,7 +1,7 @@
 # employed
 
 ![employed.png](assets/employed_00.gif)
-![employed.png](assets/employed_ui.png)
+![employed.png](employed_ui.png)
 ![employed_00.gif](assets/employed_01.gif)
 
 ![employed_01.gif](assets/employed_02.gif)
